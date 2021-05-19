@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/trabalho_ifce
+    username: postgres
+    password: postgres
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: none
+  main:
+    lazy-initialization: true
+
+server:
+  servlet:
+    context-path: /api
+  port: 8081
